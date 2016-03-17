@@ -1,3 +1,33 @@
+<<<<<<< HEAD
 .container{
     height:50%;
 }
+=======
+div{
+    
+    background-color:black;
+    width:70%;
+    margin:0 auto;
+    border-radius:50%;
+    
+}
+header{
+    height:100%;
+    width:100%;
+    background-image:image(img/wood-2.jpg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+>>>>>>> refs/remotes/origin/master
