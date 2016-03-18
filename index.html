@@ -97,7 +97,7 @@
             <div class="item" id="second-slide">
       <div class="carousel-caption">
         <h1>Eat Local</h1>
-                                <h4>Fresno Bee, The freshest and best ingredients come together to make some of the best food I have ever ate. You can realy taste the Central Valley in every bite.</h4>
+                                <h4>Fresno Bee, The freshest and best ingedients coe together to make os e of the best food I have ever ate> You can really tast the Centeral Valley in every bite.</h4>
                                         <button class="btn btn-lrg">Learn More</button>
                 </div>
     </div>
@@ -129,6 +129,9 @@
  
 </div>
 <div id="review">
+<span>
+    <img src="img/wood-2.jpg">
+</span>
 
 </div>
 <div id="menu">
@@ -146,19 +149,20 @@
         <script>
 >>>>>>> refs/remotes/origin/master
     $(function() {
-        $('a[href*="#"]:not([href="#"])').click(function() {
-            if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-                var target = $(this.hash);
-                target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-                if (target.length) {
-                    $('html, body').animate({
-                        scrollTop: target.offset().top
-                    }, 1000);
-                    return false;
-                }
+    $('a[href*=#]:not([href=#])').click(function() {
+        if( $(this).attr("href")=="#carousel-example-generic") return;//This is the exception
+        if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+            var target = $(this.hash);
+            target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+            if (target.length) {
+                $('html,body').animate({
+                    scrollTop: target.offset().top
+                }, 1000);
+                return false;
             }
-        });
+        }
     });
+});
     </script>
 <<<<<<< HEAD
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
