@@ -84,12 +84,19 @@ div{
 }
 #contact{
   min-height: 500px;
-  background-color: green;
+  background-color:peachpuff;
 }
 #veggie{
     
 }
-
+#contact{
+    margin:0 auto;
+    width:100%;
+    height:auto;
+    font-weight:600;
+    text-align: center;
+    background-color:white;
+}
 
 
 
