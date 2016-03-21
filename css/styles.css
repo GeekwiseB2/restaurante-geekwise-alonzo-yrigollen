@@ -13,77 +13,81 @@ div{
     
 =======
 .container-fluid{
-  padding: 0px;
+  padding:0px;
 }
 
 .navbar-default{
-  background-color: transparent;
+  background-color:transparent;
   border:none;
-  position: absolute;
-  z-index: 10;
+  position:absolute;
+  z-index:10;
   width:100%;
 }
 
 #first-slide{
   background-image: url(../img/wood-2.jpg);
-  background-size: cover;
-  min-height: 600px;
+  background-size:cover;
+  min-height:600px;
 }
 #first-slide img{
-  max-height: 400px;
-  padding-top: 125px;
+  max-height:400px;
+  padding-top:125px;
 }
 
 #second-slide{
-  background-image: url(../img/restaurant-2.jpg);
-  background-size: cover;
+  background-image:url(../img/restaurant-2.jpg);
+  background-size:cover;
   background-position:center;
-  min-height: 600px;
+  min-height:600px;
 
 }
 
 #third-slide{
-  background-image: url(../img/farm-2.jpg);
-  background-size: cover;
-  background-position: center;
-  min-height: 600px;
+  background-image:url(../img/farm-2.jpg);
+  background-size:cover;
+  background-position:center;
+  min-height:600px;
 }
 
 #second-slide .carousel-caption{
+<<<<<<< HEAD
   padding-bottom: 175px;
+>>>>>>> refs/remotes/origin/master
+=======
+  padding-bottom:175px;
 >>>>>>> refs/remotes/origin/master
 }
 
 #second-slide button{
-  background-color: #f15a24;
+  background-color:#f15a24;
   padding:5px 10px;
 }
 
 #third-slide .carousel-caption{
-  padding-bottom: 175px;
+  padding-bottom:175px;
 }
 
 #third-slide button{
-  background-color: #f15a24;
+  background-color:#f15a24;
   padding:5px 10px;
 
 }
 #story{
-  min-height: 500px;
-  background-color: blue;
+  min-height:500px;
+  background-color:blue;
 }
 
 #review{
-  min-height: 500px;
-  background-color: green;
+  min-height:500px;
+  background-color:green;
 }
 
 #menu{
-  min-height: 500px;
-  background-color: green;
+  min-height:500px;
+  background-color:green;
 }
 #contact{
-  min-height: 500px;
+  min-height:500px;
   background-color:peachpuff;
 }
 #veggie{
@@ -94,7 +98,7 @@ div{
     width:100%;
     height:auto;
     font-weight:600;
-    text-align: center;
+    text-align:center;
     background-color:white;
 }
 #menu_images{
@@ -110,6 +114,7 @@ div{
 }
 
 
+<<<<<<< HEAD
 
 
 
@@ -120,4 +125,6 @@ div{
 
 
 
+>>>>>>> refs/remotes/origin/master
+=======
 >>>>>>> refs/remotes/origin/master
