@@ -34,13 +34,13 @@
          </div><!--HAMBURGER END-->
 
          <!-- Collect the nav links, forms, and other content for toggling -->
-         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+         <div class="collapse navbar-collapse navbar-fixed-top" id="bs-example-navbar-collapse-1">
                  <ul class="nav navbar-nav navbar-right">
-                         <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
-                         <li><a href="#story">Our Story</a></li>
-                         <li><a href="#review">Review</a></li>
-                         <li><a href="#menu">Menu</a></li>
-                         <li><a href="#contact">Contact Us</a></li>
+                         <li class="active"><a class="smooth-scroll" href="#">Home<span class="sr-only">(current)</span></a></li>
+                         <li><a class="smooth-scroll" href="#story">Our Story</a></li>
+                         <li><a class="smooth-scroll" href="#review">Review</a></li>
+                         <li><a class="smooth-scroll" href="#menu">Menu</a></li>
+                         <li><a class="smooth-scroll" href="#contact">Contact Us</a></li>
                  </ul>
          </div><!-- /.navbar-collapse -->
         </nav><!--END HEADER-->
@@ -120,7 +120,7 @@
 <h1 class="menu-h1"></h1>
 <div class="container">
         <div class="row">
-                <div class="col-sm-12">
+                <div class="col-sm-12" id="tab-section">
                         <h1>Menu</h1>
 
          <!-- Nav tabs -->
@@ -136,22 +136,22 @@
     <div role="tabpanel" class="tab-pane active" id="appetizers">
     <div class="row">
         <div class="col-sm-3">
-            <img src="img/dip.jpg" alt="Dip and breadsticks">" alt="" class="thumbnail img-responsive">
+            <img src="img/dip.jpg" alt="Dip and breadsticks" alt="" class="thumbnail img-responsive">
             <h3 class="app-heading text-center">Appetizer 1</h3>
             <p class="app-paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium laudantium asperiores cumque, placeat! </p>
         </div>
         <div class="col-sm-3">
-            <img src="img/dip.jpg" alt="Dip and breadsticks">" alt="" class="thumbnail img-responsive">
+            <img src="img/eggplant.jpg" alt="Dip and breadsticks" alt="" class="thumbnail img-responsive">
             <h3 class="app-heading text-center">Appetizer 2</h3>
             <p class="app-paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium laudantium asperiores cumque, placeat! </p>
         </div>
           <div class="col-sm-3">
-            <img src="img/dip.jpg" alt="Dip and breadsticks">" alt="" class="thumbnail img-responsive">
+            <img src="img/meat.jpg" alt="Dip and breadsticks" alt="" class="thumbnail img-responsive">
             <h3 class="app-heading text-center">Appetizer 3</h3>
             <p class="app-paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium laudantium asperiores cumque, placeat! </p>
         </div>
          <div class="col-sm-3">
-            <img src="img/dip.jpg" alt="Dip and breadsticks">" alt="" class="thumbnail img-responsive">
+            <img src="img/bruschetta.jpg" alt="Dip and breadsticks" alt="" class="thumbnail img-responsive">
             <h3 class="app-heading text-center">Appetizer 4</h3>
             <p class="app-paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium laudantium asperiores cumque, placeat! </p>
         </div>
@@ -215,6 +215,11 @@
         });
 });
     </script>
-        </script>
+        <script>
+    $(".nav a").on("click", function(){
+     $(".nav").find(".active").removeClass("active");
+     $(this).parent().addClass("active");
+    });
+    </script>
 </body>
 </html>
