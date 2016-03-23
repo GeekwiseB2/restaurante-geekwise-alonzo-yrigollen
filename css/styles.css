@@ -196,6 +196,19 @@ font-family: "raleway", sans-serif;
     text-align:center;
     font-size:80px;
     
+<<<<<<< HEAD
 }    
     
+>>>>>>> refs/remotes/origin/master
+=======
+}
+
+.nav a{
+    color:red;
+}
+
+
+
+
+
 >>>>>>> refs/remotes/origin/master
