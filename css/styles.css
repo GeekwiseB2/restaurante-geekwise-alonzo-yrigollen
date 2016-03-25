@@ -1,17 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-.container{
-    height:50%;
-}
-=======
-div{
-    
-    background-color:black;
-    width:70%;
-    margin:0 auto;
-    border-radius:50%;
-    
-=======
 .container-fluid{
   padding:0px;
 }
@@ -50,16 +36,7 @@ div{
 }
 
 #second-slide .carousel-caption{
-<<<<<<< HEAD
-<<<<<<< HEAD
   padding-bottom: 175px;
->>>>>>> refs/remotes/origin/master
-=======
-  padding-bottom:175px;
->>>>>>> refs/remotes/origin/master
-=======
-  padding-bottom: 175px;
->>>>>>> refs/remotes/origin/master
 }
 
 #second-slide button{
@@ -153,28 +130,9 @@ div{
 /**END MENU SECTION**/
 /**START CONTACT SECTION**/
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-
-
-
-
-
-
-
-
-
->>>>>>> refs/remotes/origin/master
-=======
->>>>>>> refs/remotes/origin/master
-=======
 #contact{
   min-height: 800px;
   background-color: #f15a24;
-<<<<<<< HEAD
->>>>>>> refs/remotes/origin/master
-=======
 font-family: "raleway", sans-serif;
 }
 #contact .contact-h1{
@@ -196,19 +154,8 @@ font-family: "raleway", sans-serif;
     text-align:center;
     font-size:80px;
     
-<<<<<<< HEAD
-}    
-    
->>>>>>> refs/remotes/origin/master
-=======
 }
 
 .nav a{
     color:red;
 }
-
-
-
-
-
->>>>>>> refs/remotes/origin/master
