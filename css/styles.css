@@ -160,9 +160,10 @@ font-family: "raleway", sans-serif;
     color:red;
 }
 
-#bitwise{
-    width:30em;
-    height:30em;
+#bitwise img{
+    width:33em;
+    height:17em;
+    transform:translateY(6em);
 }
 
 
