@@ -1,13 +1,34 @@
 .container-fluid{
   padding:0px;
 }
-
+.navbar-brand{
+    
+    border-radius:50%;
+    
+    
+}
 .navbar-default{
   background-color:transparent;
   border:none;
   position:absolute;
   z-index:10;
   width:100%;
+}
+
+.center-block{
+    
+    border-radius:5% 3% 6% 5;
+    
+    
+}
+h1{
+    
+    color:#fff;
+    font-size:2em;
+    text-shadow: 2px 2px #ff0000;
+    margin:0 auto;
+    text-transform:uppercase;
+    text-align:center;
 }
 
 #first-slide{
@@ -21,7 +42,7 @@
 }
 
 #second-slide{
-  background-image:url(../img/restaurant-2.jpg);
+  background-image:url(http://i.imgur.com/NzrwgIx.jpg);
   background-size:cover;
   background-position:center;
   min-height: 600px;
@@ -81,10 +102,11 @@
 
 }
 /**END STORY SECTION**/
+/*../img/food_review.jpg*/
 
 /** REVIEW SECTION**/
 #review{
-  background-image: url('../img/food_review.jpg');
+  background-image: url('http://i.imgur.com/eR3OQEb.jpg');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -160,10 +182,11 @@ font-family: "raleway", sans-serif;
     color:red;
 }
 
-#bitwise img{
+#bitwise iframe{
     width:33em;
-    height:17em;
-    transform:translateY(6em);
+    height:27em;
+    float:left;
+    transform:translateY(2em);
 }
 
 
